@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="net.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="net_hsqzfWebService_GetCaseList" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://10.104.25.16/hs_sv_myd/GetCaseList.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

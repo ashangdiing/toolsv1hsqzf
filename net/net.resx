@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="testBoxTxt.Text" xml:space="preserve">
+    <value>[{ "案件记录号": "77178", "市民姓名": "徐先生", "市民电话": "13695496538", "处理时间": "", "案件类型名称": "销售假冒伪劣药品", "主办部门": "食药监局", "详细地址": "", "录入时间": "2015-05-28 09:24:27"}, { "案件记录号": "77179", "市民姓名": "陈先生", "市民电话": "13607147023", "处理时间": "", "案件类型名称": "乱收费问题", "主办部门": "物价局", "详细地址": "", "录入时间": "2015-05-28 09:31:06"}, { "案件记录号": "77180", "市民姓名": "赵女士", "市民电话": "15342786860", "处理时间": "2015-05-28 10:23:37", "案件类型名称": "直管公房维修问题", "主办部门": "和平街", "详细地址": "", "录入时间": "2015-05-28 09:33:34"}, { "案件记录号": "77181", "市民姓名": "向先生", "市民电话": "13312816779", "处理时间": "", "案件类型名称": "消费者维权", "主办部门": "工商分局", "详细地址": "", "录入时间": "2015-05-28 09:35:00"}, { "案件记录号": "77182", "市民姓名": "余女士", "市民电话": "13429810358", "处理时间": "", "案件类型名称": "违法拆迁", "主办部门": "青菱街", "详细地址": "", "录入时间": "2015-05-28 09:50:37"}, { "案件记录号": "77183", "市民姓名": "张鹏先生", "市民电话": "50522407", "处理时间": "", "案件类型名称": "其它社会服务问题", "主办部门": "卓刀泉街", "详细地址": "", "录入时间": "2015-05-28 09:53:22"}, { "案件记录号": "77184", "市民姓名": "李女士", "市民电话": "15927212527", "处理时间": "", "案件类型名称": "噪音扰民", "主办部门": "城管局", "详细地址": "", "录入时间": "2015-05-28 10:04:09"}, { "案件记录号": "77185", "市民姓名": "张女士", "市民电话": "13871269631", "处理时间": "", "案件类型名称": "物业纠纷", "主办部门": "狮子山街", "详细地址": "", "录入时间": "2015-05-28 10:06:44"}, { "案件记录号": "77186", "市民姓名": "李先生", "市民电话": "18908651863", "处理时间": "", "案件类型名称": "油烟污染", "主办部门": "城管局", "详细地址": "", "录入时间": "2015-05-28 10:08:47"}, { "案件记录号": "77187", "市民姓名": "夏先生", "市民电话": "15327374281", "处理时间": "", "案件类型名称": "违规排污问题", "主办部门": "环保局", "详细地址": "", "录入时间": "2015-05-28 10:16:27"}, { "案件记录号": "77188", "市民姓名": "张女士（保密）", "市民电话": "18062660031", "处理时间": "", "案件类型名称": "占道经营", "主办部门": "城管局", "详细地址": "", "录入时间": "2015-05-28 10:20:45"}, { "案件记录号": "77189", "市民姓名": "王先生", "市民电话": "15727037596", "处理时间": "", "案件类型名称": "占道经营", "主办部门": "城管局", "详细地址": "", "录入时间": "2015-05-28 10:23:09"}, { "案件记录号": "77190", "市民姓名": "叶女士", "市民电话": "15902791342", "处理时间": "", "案件类型名称": "物业纠纷", "主办部门": "", "详细地址": "", "录入时间": "2015-05-28 10:29:35"}, { "案件记录号": "77191", "市民姓名": "一先生（保密）", "市民电话": "13027151136", "处理时间": "", "案件类型名称": "无证照经营", "主办部门": "", "详细地址": "", "录入时间": "2015-05-28 10:30:23"}]</value>
+  </data>
+</root>
